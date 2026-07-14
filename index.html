@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Pedidos - Cafetería</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:#f4f4f4;
+            text-align:center;
+            padding:30px;
+        }
+
+        h1{
+            color:#5c3d2e;
+        }
+
+        button{
+            padding:10px 20px;
+            font-size:16px;
+            background:#6f4e37;
+            color:white;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#5b3d2b;
+        }
+
+        #listaPedidos{
+            margin-top:20px;
+            width:60%;
+            margin-left:auto;
+            margin-right:auto;
+        }
+
+        .pedido{
+            background:white;
+            padding:15px;
+            margin:10px;
+            border-radius:8px;
+            box-shadow:0 2px 5px rgba(0,0,0,.2);
+        }
+
+        .proceso{
+            color:orange;
+            font-weight:bold;
+        }
+
+        .completado{
+            color:green;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+
+<h1>☕ Simulador de Pedidos</h1>
+
+<button id="btnPedido">
+    Agregar Pedido
+</button>
+
+<div id="listaPedidos"></div>
+
+<script src="JS/script.js"></script>
+
+</body>
+</html>
