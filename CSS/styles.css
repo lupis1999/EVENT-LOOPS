@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#eef2f7;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+
+    width:500px;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+
+}
+
+h1{
+
+    text-align:center;
+    color:#0d6efd;
+    margin-bottom:10px;
+
+}
+
+p{
+
+    text-align:center;
+    margin-bottom:20px;
+
+}
+
+label{
+
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+
+}
+
+input,
+select{
+
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border-radius:8px;
+    border:1px solid #ccc;
+
+}
+
+.checkboxes{
+
+    margin-top:10px;
+
+}
+
+.checkboxes label{
+
+    display:block;
+    font-weight:normal;
+
+}
+
+button{
+
+    width:100%;
+    margin-top:25px;
+    padding:12px;
+    background:#0d6efd;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+
+}
+
+button:hover{
+
+    background:#084298;
+
+}
+
+#mensaje{
+
+    margin-top:20px;
+    text-align:center;
+    font-weight:bold;
+
+}
+
+.error{
+
+    color:red;
+
+}
+
+.exito{
+
+    color:green;
+
+}

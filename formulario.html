@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Eventos</title>
+
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>📋 Registro de Evento</h1>
+        <p>Complete el siguiente formulario para registrarse.</p>
+
+        <form id="formulario">
+
+            <label>Nombre Completo</label>
+            <input type="text" id="nombre">
+
+            <label>Correo Electrónico</label>
+            <input type="email" id="correo">
+
+            <label>Edad</label>
+            <input type="number" id="edad">
+
+            <label>Teléfono</label>
+            <input type="tel" id="telefono">
+
+            <label>Horario de Asistencia</label>
+            <select id="horario">
+                <option value="">Seleccione un horario</option>
+                <option>Mañana</option>
+                <option>Tarde</option>
+                <option>Noche</option>
+            </select>
+
+            <label>Intereses</label>
+
+            <div class="checkboxes">
+                <label><input type="checkbox" name="intereses" value="Tecnología"> Tecnología</label>
+                <label><input type="checkbox" name="intereses" value="Marketing"> Marketing</label>
+                <label><input type="checkbox" name="intereses" value="Diseño"> Diseño</label>
+            </div>
+
+            <label>Documento de Identificación (Opcional)</label>
+            <input type="file" id="documento">
+
+            <button type="submit">
+                Registrarse
+            </button>
+
+        </form>
+
+        <div id="mensaje"></div>
+
+    </div>
+
+    <script src="JS/script5.js"></script>
+
+</body>
+
+</html>
