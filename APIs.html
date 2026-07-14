@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo de API - Fetch y Axios</title>
+
+    <!-- Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:#f4f4f4;
+            text-align:center;
+            padding:20px;
+        }
+
+        button{
+            padding:10px 20px;
+            margin:10px;
+            font-size:16px;
+            cursor:pointer;
+        }
+
+        #data-container{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            margin-top:20px;
+        }
+
+        .card{
+            width:180px;
+            background:white;
+            margin:10px;
+            padding:10px;
+            border-radius:8px;
+            box-shadow:0 2px 5px rgba(0,0,0,.2);
+        }
+
+        .card img{
+            width:100%;
+            border-radius:8px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Personajes de Rick & Morty</h1>
+
+<button id="fetchBtn">
+    Obtener con Fetch
+</button>
+
+<button id="axiosBtn">
+    Obtener con Axios
+</button>
+
+<div id="data-container"></div>
+
+<script src="JS/script3.js"></script>
+
+</body>
+</html>
